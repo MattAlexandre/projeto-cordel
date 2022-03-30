@@ -1,2 +1,45 @@
 @charset "UTF_8";
 
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+
+html , body{
+    min-height: 100vh;
+    background-color: lightgray;
+}
+
+header{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+header > h1{
+    padding-top: 35px;
+    font-variant: small-caps;
+}
+header > p{
+    padding-bottom: 35px;
+    font-size: 15px;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+
+a:hover{
+    color: white;
+    text-shadow: 0px 0px 15px white;
+    font-weight: bolder;
+    text-decoration:underline ;
+}
+.normal{
+ color: none;
+}
+.imagem{
+    color: none;
+}
