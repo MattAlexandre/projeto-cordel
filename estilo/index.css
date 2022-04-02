@@ -65,22 +65,50 @@ section{
     line-height: 2em;
     padding-left: 35px;
     font-family: var(--font3);
-    font-size: 3.5vw;
+    font-size: 3vw;
 }
+
+section > p{
+    padding-bottom: 2em;
+}
+
+
 section.normal{
     background-color: white;
     color:black;
 }
+
 section.imagem{
     background-color: darkgrey;
     color: white;
+    box-shadow: inset 5px 7px 15px rgba(0, 0, 0, 0.61);
 }
 
 section.imagem > p{
-    background-color: rgba(0, 0, 0, 0.267);
+    background-color: rgba(0, 0, 0, 0.404);
     display: inline-block;
     padding: 5px;
+    border-radius: 25px;
+    box-shadow: 5px 5px 15px black;
+    text-shadow: 2px 2px 5px black;
 }
+
+section.imagem > p:hover{
+    box-shadow: 5px 5px 15px white;
+    text-shadow: 2px 2px 20px white;
+}
+
+section#img01{
+    background: black url('../imagens/background001.jpg') right center no-repeat fixed;
+    background-size: cover;
+}
+
+section#img02{
+    background: black url('../imagens/background002.jpg') right center no-repeat fixed;
+    background-size: cover;
+}
+
+
 footer{
     background-color: black;
     text-align: center;
