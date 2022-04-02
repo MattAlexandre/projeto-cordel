@@ -1,6 +1,18 @@
 @charset "UTF_8";
 
+/*importando fonts para site*/
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700&family=Sriracha&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+
+
+/*declarando variaveis*/
 :root{
+
+    --font1: verdana, Geneva, tahoma, sans-serif;
+    --font2: 'Passion One', cursive;
+    --font3: 'Sriracha', cursive;
+    
+
     --cor1:none;
     --cor2:none;
 }
@@ -13,6 +25,7 @@
 
 
 html , body{
+    font-family: var(--font1);
     min-height: 100vh;
     background-color: lightgray;
 }
@@ -24,8 +37,10 @@ header{
 }
 
 header > h1{
+    font-family: var(--font2);
     padding-top: 35px;
     font-variant: small-caps;
+    font-size: 7.5vw;
 }
 header > p{
     padding-bottom: 35px;
@@ -49,6 +64,8 @@ section{
     padding: 10vh 0vh;
     line-height: 2em;
     padding-left: 35px;
+    font-family: var(--font3);
+    font-size: 3.5vw;
 }
 section.normal{
     background-color: white;
@@ -61,7 +78,8 @@ section.imagem{
 
 section.imagem > p{
     background-color: rgba(0, 0, 0, 0.267);
-    width: 400px;
+    display: inline-block;
+    padding: 5px;
 }
 footer{
     background-color: black;
