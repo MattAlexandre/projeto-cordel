@@ -80,7 +80,7 @@ section.normal{
 
 section.imagem{
     background-color: darkgrey;
-    color: white;
+    color: white;   
     box-shadow: inset 5px 7px 15px rgba(0, 0, 0, 0.61);
 }
 
@@ -99,12 +99,12 @@ section.imagem > p:hover{
 }
 
 section#img01{
-    background: black url('../imagens/background001.jpg') right center no-repeat fixed;
+    background: black url('../imagens/background001.jpg') center center no-repeat fixed;
     background-size: cover;
 }
 
 section#img02{
-    background: black url('../imagens/background002.jpg') right center no-repeat fixed;
+    background: black url('../imagens/background002.jpg') center center no-repeat fixed;
     background-size: cover;
 }
 
